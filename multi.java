@@ -4,9 +4,9 @@ class multi
 	public static void main(String[] args)
 	{
 		Scanner in = new Scanner(System.in);
-		int p=1;
-		System.out.print("Enter the number:");
-		int n = in.nextInt();
+		int n=10,p=1;
+		
+		
 		for(int i=1;i<=10;i++)
 		{
 			p=n*i;
